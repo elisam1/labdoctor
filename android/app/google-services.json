@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "215789729164",
+    "project_id": "lab-doctor",
+    "storage_bucket": "lab-doctor.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215789729164:android:48ef1eeeb9ad38610692a9",
+        "android_client_info": {
+          "package_name": "com.example.labdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215789729164-mpri78glt8at4htneraek9sobrcit3h0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.labdoctor",
+            "certificate_hash": "df4b884d396131beb5bc2a5666dd9ce5136bb790"
+          }
+        },
+        {
+          "client_id": "215789729164-gpgjjhf3kqqmd588fjch3ic8gdjm5ipd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGwkJ0l_gBizR3-XfBCJqgPPfxlAjlvCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215789729164-gpgjjhf3kqqmd588fjch3ic8gdjm5ipd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
