@@ -15,6 +15,7 @@ import 'package:labdoctor/services/auth_service.dart'; // Ensure we import the A
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await FirebaseAuth.instance.setPersistence(Persistence.LOCAL);
   runApp(const ProviderScope(child: MyApp()));
 }
 

@@ -13,7 +13,7 @@ class AuthService {
         _firestore = firestore ?? FirebaseFirestore.instance;
 
   /// Stream to listen for authentication state changes
-  Stream<User?> get userStream => _auth.authStateChanges();
+  Stream<User?> get authStateChanges => _auth.authStateChanges();
 
   /// Register a new user with email and password
   Future<User?> registerWithEmailAndPassword({
