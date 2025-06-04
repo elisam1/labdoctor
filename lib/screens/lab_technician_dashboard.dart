@@ -7,6 +7,7 @@ import 'package:share_plus/share_plus.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';
 import 'notifications_screen.dart';
+import 'settings_screen.dart';
 import 'package:labdoctor/providers/lab_technician_providers.dart';
 import 'start_screen.dart';
 import 'edit_profile_screen.dart';
@@ -217,7 +218,11 @@ class _LabTechnicianDashboardState extends ConsumerState<LabTechnicianDashboard>
             title: const Text('Settings'),
             onTap: () {
               Navigator.pop(context);
-              // Add settings screen navigation here
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) =>  SettingsScreen()),
+              );
+              
             },
           ),
           ListTile(
